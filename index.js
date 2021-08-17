@@ -7,7 +7,7 @@ app.get('/', (req, res ) => {
 })
 
 app.get('/api/numbers', (req, res) => {
-    res.send(['alfa', 'beta', 'gamma'])
+    res.send(['alfa', 'beta', 'gamma', 'delta'])
 })
 
 app.listen(port, () => console.log(`http://localhost:${port}/`))
